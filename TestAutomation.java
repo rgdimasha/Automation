@@ -12,21 +12,21 @@ public class TestAutomation {
 	        
 	        driver.manage().window().maximize();
 	        
-	        //UserLogin login = new UserLogin(driver);
-	        //login.ValidLogin("standard_user", "secret_sauce");
-	        //login.ValidLogin("standard", "secret_sauce");
+	        UserLogin login = new UserLogin(driver);
+	        login.ValidLogin("standard_user", "secret_sauce");
+	        login.ValidLogin("standard", "secret_sauce");
 	        
-	        //AddToCart addToCart = new AddToCart(driver);
-	        //addToCart.addToCart();
+	        AddToCart addToCart = new AddToCart(driver);
+	        addToCart.addToCart();
 	        
-	        //RemoveFromCart Remove= new RemoveFromCart(driver);
-	        //Remove.RemoveCart();
+	        RemoveFromCart Remove= new RemoveFromCart(driver);
+	        Remove.RemoveCart();
 	        
-	        //FilterResult FilterR= new FilterResult(driver);
-	        //FilterR.Filter();
+	        FilterResult FilterR= new FilterResult(driver);
+	        FilterR.Filter();
 	        
-	        //CheckoutProcess check= new CheckoutProcess(driver);
-	        //check.Checkout("harry", "styles","123");
+	        CheckoutProcess check= new CheckoutProcess(driver);
+	        check.Checkout("harry", "styles","123");
 	 
 	       
 	        driver.quit();
