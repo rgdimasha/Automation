@@ -1,4 +1,4 @@
-# Automation
+# TestAutomation
 Description: A test automation project for testing various functionalities of the Sauce Demo website using Selenium WebDriver and Java.
 
 Table of Contents
